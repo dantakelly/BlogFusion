@@ -1,0 +1,63 @@
+.editor-container {
+    max-width: 700px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-bar {
+    background: #f5f5f5 !important;
+  }
+  
+  .menu-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    gap: 8px;
+  }
+  
+  .menu-bar button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-bar button:hover {
+    background: #e0e0e0;
+  }
+  
+  .menu-bar .active {
+    background: #007bff;
+    color: white;
+  }
+  
+  .editor-content {
+    padding: 15px;
+    min-height: 200px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+
+/* Checkboxes for industry */
+.checkBoxes-posts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/*  */
+
+form {
+  border-top: none !important;
+}

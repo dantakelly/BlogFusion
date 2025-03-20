@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{ 
+  --BackgroundColor: white; 
+  --hardBlue: #4B6BFB; 
+  --lightBlue: #4b6bfb2c;
+  --greyish: #52525b10; 
+  --blacky: black; 
+  --color: white; 
+  --cardColor: white;
+  --greyishCardShadow: #52525b10; 
+  --darkerGrey: #52525ba9;
+  --kindaLightBlue:  #4b6bfb5e;
+  
+}
+
+body{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  background-color: var(--BackgroundColor);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
